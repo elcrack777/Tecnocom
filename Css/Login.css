@@ -1,0 +1,58 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    color: #000; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+h2 .fw-bold {
+    font-weight: bold;
+}
+
+.form-label {
+    color: #194073;
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin-bottom: 25px; 
+}
+
+.form-control:focus {
+    border-color: #102973;
+    box-shadow: 0 0 5px rgba(16, 41, 115, 0.5);
+}
+
+.btn-primary {
+    background-color: #102973;
+    border-color: #102973;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #194073;
+    border-color: #194073;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px auto;
+    display: block;
+}

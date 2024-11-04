@@ -1,0 +1,83 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    padding-top: 60px;
+    margin: 0;
+}
+
+.container {
+    border-radius: 10px;
+    padding: 0px;
+    max-width: auto;
+    margin: auto;    
+}
+
+h2 {
+    color: #102973; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-group {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #102973;
+    box-shadow: 0 0 5px rgba(16, 41, 115, 0.5);
+}
+
+.btn-primary, .btn-secondary {
+    font-weight: bold;
+    width: 49%;
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #102973;
+    border-color: #102973;
+}
+
+.btn-primary:hover {
+    background-color: #194073;
+    border-color: #194073;
+}
+
+.btn-secondary {
+    background-color: #404247;
+    border-color: #949597;
+}
+
+.btn-secondary:hover {
+    background-color: #404247;
+    border-color: #949597;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.navbar-custom {
+    background-color: #194073;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+    color: #fff;
+}

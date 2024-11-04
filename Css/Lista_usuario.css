@@ -1,0 +1,108 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    border-radius: 10px;
+    padding: 0px;
+    max-width: auto;
+    margin: auto;
+}
+
+h2 {
+    color: #72462d;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #0B38BF;
+    border-color: #0B38BF;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #3f5fbf;
+    border-color: #3f5fbf;
+}
+
+.btn-danger {
+    background-color: #d6111b;
+    border-color: #d6111b;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #f2747b;
+    border-color: #f2747b;
+}
+
+.status-pendiente {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.status-en-progreso {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.status-atendido {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.status-default {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 0.3em 0.5em;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.navbar-custom {
+    background-color: #72462d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+    color: #fff;
+}
+
+.table-custom {
+    background-color: #72462d;
+    color: white;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.table-custom thead th {
+    background-color: #72462d;
+    color: white;
+}
+
+.table-custom tbody tr {
+    background-color: #cd9c81;
+    color: white;
+}
+
+.table-custom tbody tr:hover {
+    background-color: #cd9c81;
+}
